@@ -14,7 +14,8 @@
     </head>
     <body>
         <div class="banner">
-            <span class="name">Teconología.com</span>
+            <span class="name">Tecnología.com</span>
+            <span class="skewed"></span>
         </div>
     </body>
 </html>

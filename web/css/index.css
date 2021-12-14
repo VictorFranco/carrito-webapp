@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    margin: 0;
+}
+.banner{
+    height: 400px;
+    background: url(../images/banner.jpg);
+    background-color: rgba(0,0,0,.6);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+.banner .name{
+    background: black;
+    padding: 5px;
+}

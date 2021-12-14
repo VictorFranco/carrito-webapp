@@ -9,9 +9,12 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Home</title>
+        <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <div class="banner">
+            <span class="name">Teconología.com</span>
+        </div>
     </body>
 </html>

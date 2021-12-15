@@ -33,6 +33,9 @@
                 new Product("Raspberry Pico",84,"pico.jpg"),
                 new Product("Ice Tower",74,"tower.jpg"),
             };
+            // communicate the products
+            session.setAttribute("products",products);
+
             int id = 0;
             String url = "views/viewProduct.jsp";
             for(Product product: products) {

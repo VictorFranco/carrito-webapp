@@ -19,6 +19,11 @@
         </div>
         <h1>Productos</h1>
         <div class="content">
+            <div class="card">
+                <img src="images/raspberry.jpg"/>
+                <div class="name">Raspberry Pi</div>
+                <div class="price">200</div>
+            </div>
         </div>
         <script src="js/skewed.js"></script>
     </body>

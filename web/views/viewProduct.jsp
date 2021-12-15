@@ -24,6 +24,7 @@
                 <img src="../images/<%=product.getImgName()%>"/>
             </div>
             <form method="post" action="../AddToCart" class="description">
+                <input class='id' name='id' value='<%=id%>'/>
                 <div class="name">
                     <%=product.getName()%>
                 </div>

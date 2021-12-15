@@ -45,3 +45,6 @@ body{
     padding: 10px;
     font-size: 20px;
 }
+.id{
+    display: none;
+}

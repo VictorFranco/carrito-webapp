@@ -35,7 +35,7 @@ body{
     width: 100%;
     height: 100%;
     top: 100%;
-    background: white;
+    background: #ddd;
     transform: skewY(-10deg);
     transform-origin: left;
 }

@@ -51,15 +51,19 @@ body{
     width: 250px;
     height: 320px;
     background: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     box-shadow: 0 0 20px;
     overflow: hidden;
     border-radius: 10px;
     margin: 20px;
     cursor: pointer;
     transition: all .2s;
+}
+.card a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
 }
 .card:hover{
     transform: scale(1.1);
@@ -77,4 +81,7 @@ img{
     width: 100%;
     height: 200px;
     object-fit: cover;
+}
+.id{
+    display: none;
 }

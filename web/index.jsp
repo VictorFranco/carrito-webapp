@@ -33,17 +33,24 @@
                 new Product("Raspberry Pico",84,"pico.jpg"),
                 new Product("Ice Tower",74,"tower.jpg"),
             };
+            int id = 0;
+            String url = "views/viewProduct.jsp";
             for(Product product: products) {
-                out.println("<div class=\"card\">");
-                out.println("<img src=\"images/"+product.getImgName()+"\"/>");
-                out.println("<div class=\"name\">"+product.getName()+"</div>");
-                out.println("<div class=\"price\">$"+
+                out.println("<form action='"+url+"' method='get' class='card'>");
+                out.println("<a href='"+url+"'>");
+                out.println("<input class='id' name='id' value='"+id+"'/>");
+                out.println("<img src='images/"+product.getImgName()+"'/>");
+                out.println("<div class='name'>"+product.getName()+"</div>");
+                out.println("<div class='price'>$"+
                     String.format("%.2f",product.getPrice())
                     +"</div>");
-                out.println("</div>");
+                out.println("</a>");
+                out.println("</form>");
+                id++;
             }
         %>
         </div>
         <script src="js/skewed.js"></script>
+        <script src="js/cards.js"></script>
     </body>
 </html>

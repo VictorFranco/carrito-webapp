@@ -17,6 +17,9 @@
             <span class="name">Tecnología.com</span>
             <span class="skewed"></span>
         </div>
+        <h1>Productos</h1>
+        <div class="content">
+        </div>
         <script src="js/skewed.js"></script>
     </body>
 </html>

@@ -16,7 +16,7 @@
     <body>
         <jsp:include page="views/viewNavbar.jsp"></jsp:include>
         <div class="banner">
-            <span class="name">Tecnología.com</span>
+            <span class="message">Encuentra lo que necesitas</span>
             <span class="skewed"></span>
         </div>
         <h1>Productos</h1>

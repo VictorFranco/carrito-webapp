@@ -25,7 +25,7 @@ body{
     position: relative;
     overflow: hidden;
 }
-.banner .name{
+.banner .message{
     background: black;
     padding: 5px;
 }

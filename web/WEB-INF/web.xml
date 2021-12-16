@@ -4,9 +4,17 @@
         <servlet-name>AddToCart</servlet-name>
         <servlet-class>cart.AddToCart</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>BuyTheCart</servlet-name>
+        <servlet-class>cart.BuyTheCart</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>AddToCart</servlet-name>
         <url-pattern>/AddToCart</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BuyTheCart</servlet-name>
+        <url-pattern>/BuyTheCart</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

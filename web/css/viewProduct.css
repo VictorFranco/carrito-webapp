@@ -6,7 +6,7 @@ body{
 }
 .content{
     background: #ddd;
-    margin-top: 40px;
+    margin-top: 80px;
     display: flex;
     box-shadow: 0 0 0 1px black;
 }

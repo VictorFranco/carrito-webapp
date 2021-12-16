@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
+        <jsp:include page="views/viewNavbar.jsp"></jsp:include>
         <div class="banner">
             <span class="name">Tecnología.com</span>
             <span class="skewed"></span>

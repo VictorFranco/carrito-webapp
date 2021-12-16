@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="../css/viewProduct.css">
     </head>
     <body>
+        <jsp:include page="../views/viewNavbar.jsp"></jsp:include>
         <%
             int id = Integer.parseInt(request.getParameter("id"));
             Product[] products = (Product[]) session.getAttribute("products");

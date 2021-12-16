@@ -30,7 +30,7 @@
                     <%=product.getName()%>
                 </div>
                 <div class="price">
-                    <%=("$"+String.format("%.2f",product.getPrice()))%>
+                    $<%=String.format("%.2f",product.getPrice())%>
                 </div>
                 <div>
                     Cantidad:

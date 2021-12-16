@@ -40,16 +40,20 @@
             int id = 0;
             String url = "views/viewProduct.jsp";
             for(Product product: products) {
-                out.println("<form action='"+url+"' method='get' class='card'>");
-                out.println("<a href='"+url+"'>");
-                out.println("<input class='id' name='id' value='"+id+"'/>");
-                out.println("<img src='images/"+product.getImgName()+"'/>");
-                out.println("<div class='name'>"+product.getName()+"</div>");
-                out.println("<div class='price'>$"+
-                    String.format("%.2f",product.getPrice())
-                    +"</div>");
-                out.println("</a>");
-                out.println("</form>");
+        %>
+            <form action="<%=url%>" method="get" class="card">
+                <a href="<%=url%>">
+                    <input class="id" name="id" value="<%=id%>"/>
+                    <img src="images/<%=product.getImgName()%>"/>
+                    <div class="name">
+                        <%=product.getName()%>
+                    </div>
+                    <div class="price">
+                        $<%=String.format("%.2f",product.getPrice())%>
+                    </div>
+                </a>
+            </form>
+        <%
                 id++;
             }
         %>

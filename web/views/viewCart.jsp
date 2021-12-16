@@ -21,7 +21,8 @@
             double totalPrice = 0;
             int quantity = 0;
             ArrayList<Product> cart = (ArrayList<Product>) session.getAttribute("cart");
-            if (cart != null) {
+            boolean isEmpty = cart == null;
+            if (!isEmpty) {
                 quantity = cart.size();
                 for(Product product: cart) totalPrice += product.getPrice();
             }
@@ -40,8 +41,9 @@
                 <button type="submit">Comprar</button>
             </form>
         </div>
-        <div class="list">
+        <div class=<%=(!isEmpty?"list":"")%>>
         <%
+        if(!isEmpty)
             for(Product product: cart){
         %>
             <div class="name">

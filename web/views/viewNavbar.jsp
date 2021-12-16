@@ -22,7 +22,9 @@
                 <a href="<%=root%>/index.jsp">Tecnología.com</a>
             </div>
             <div>
-                <img src="<%=root%>/images/cart.jpg"/>
+                <a href="<%=root%>/views/viewCart.jsp">
+                    <img src="<%=root%>/images/cart.jpg"/>
+                </a>
             </div>
         </div>
     </body>

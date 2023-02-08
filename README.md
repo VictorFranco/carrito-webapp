@@ -18,3 +18,7 @@ Shopping Cart (Ecommerce) Web Application using JSP and Servlets.
 * Shopping Cart:
 
 ![Shopping Cart](https://i.imgur.com/DPYY0Fg.png "Shopping Cart")
+
+## LICENSE
+
+[MIT](LICENSE "LICENSE")
